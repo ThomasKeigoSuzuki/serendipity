@@ -41,7 +41,7 @@ export default function ArtCard({ card, isActive, isNear, offset, isBookmarked, 
         <span className="card-category">{card.category}</span>
       </div>
 
-      <div className="art-card-main">
+      <div className="art-card-main art-scroll" style={{overflowY:'auto',minHeight:0,WebkitOverflowScrolling:'touch',paddingBottom:16}}>
         <div
           onClick={(e) => { e.stopPropagation(); setRevealed(!revealed); }}
           className={`art-card-image-container ${revealed ? 'revealed' : ''}`}
