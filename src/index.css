@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Outfit:wght@300;400;600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background: #0a0a0a;
+  color: #fff;
+  font-family: 'Noto Serif JP', serif;
+}
+
+#root {
+  height: 100%;
+}
+
+/* ---- App container ---- */
+.app-container {
+  position: relative;
+  width: 100%;
+  max-width: 430px;
+  height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #0a0a1a;
+}
+
+/* ---- Card stack ---- */
+.card-stack {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  user-select: none;
+  touch-action: none;
+}
+
+/* ---- Card base ---- */
+.card {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.35s ease;
+  will-change: transform;
+  overflow: hidden;
+}
+
+/* ---- Card header ---- */
+.card-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+
+.card-source {
+  font-family: 'Outfit', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.card-category {
+  font-family: 'Outfit', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  color: rgba(255,255,255,0.4);
+  text-transform: uppercase;
+}
+
+/* ---- Tags ---- */
+.card-tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.card-tag {
+  font-family: 'Outfit', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+/* ---- Card actions ---- */
+.card-actions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 24px;
+  z-index: 2;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.action-btn-label {
+  font-family: 'Outfit', sans-serif;
+  font-size: 9px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ---- Text card ---- */
+.text-card {
+  justify-content: center;
+  padding: 24px;
+}
+
+.text-card-emoji-bg {
+  position: absolute;
+  top: -20%;
+  right: -15%;
+  font-size: 280px;
+  opacity: 0.06;
+  transform: rotate(-15deg);
+  line-height: 1;
+  pointer-events: none;
+}
+
+.text-card-content {
+  position: relative;
+  z-index: 1;
+}
+
+.text-card-emoji {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.text-card-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.text-card-body {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.82);
+  line-height: 2;
+  max-width: 340px;
+}
+
+/* ---- Art card ---- */
+.art-card {
+  flex-direction: column;
+}
+
+.art-card-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 24px;
+  position: relative;
+  overflow: auto;
+}
+
+.art-card-image-container {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border: 2px solid;
+  transition: all 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  flex-shrink: 0;
+}
+
+.art-card-image-container.revealed {
+  aspect-ratio: 4/3;
+  border-radius: 12px;
+}
+
+.art-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: all 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.art-card-loader {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  width: 32px;
+  height: 32px;
+  border: 2px solid;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.art-card-tap-hint {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(8px);
+  padding: 6px 16px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.art-card-tap-hint span {
+  font-family: 'Outfit', sans-serif;
+  font-size: 10px;
+  color: rgba(255,255,255,0.85);
+  letter-spacing: 1.5px;
+}
+
+.art-card-info {
+  margin-top: 20px;
+  text-align: center;
+  max-width: 320px;
+  transition: all 0.5s ease;
+}
+
+.art-card-question {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.8;
+  margin-bottom: 6px;
+}
+
+.art-card-hint {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 13px;
+  color: rgba(255,255,255,0.4);
+  line-height: 1.8;
+}
+
+.art-card-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 21px;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+.art-card-artist {
+  font-family: 'Outfit', sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.art-card-body {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 13px;
+  color: rgba(255,255,255,0.72);
+  line-height: 2;
+  text-align: left;
+}
+
+/* ---- Progress dots ---- */
+.progress-dots {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  z-index: 50;
+}
+
+.progress-dot {
+  width: 3px;
+  height: 6px;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.18);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.progress-dot.art {
+  height: 8px;
+  background: rgba(212,175,55,0.35);
+}
+
+.progress-dot.active {
+  width: 4px;
+  height: 20px;
+}
+
+/* ---- Map button ---- */
+.map-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 50;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.map-button.has-bookmarks {
+  background: rgba(127, 90, 240, 0.25);
+  border-color: rgba(127, 90, 240, 0.5);
+}
+
+.map-button-count {
+  font-family: 'Outfit', sans-serif;
+  font-size: 8px;
+  color: #7f5af0;
+  font-weight: 800;
+}
+
+/* ---- Shuffle button ---- */
+.shuffle-button {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  font-family: 'Outfit', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 24px;
+  padding: 10px 28px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.shuffle-button:hover {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+}
+
+/* ---- Swipe hint ---- */
+.swipe-hint {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  font-family: 'Outfit', sans-serif;
+  font-size: 10px;
+  color: rgba(255,255,255,0.2);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+/* ---- Interest Map ---- */
+.interest-map {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, #0a0a1a 0%, #151528 100%);
+  z-index: 100;
+  overflow: auto;
+  padding: 24px;
+}
+
+.interest-map-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.interest-map-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.interest-map-close {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interest-map-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: rgba(255,255,255,0.4);
+  font-family: 'Noto Serif JP', serif;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.interest-map-counts {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.interest-map-count-box {
+  flex: 1;
+  padding: 14px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.interest-map-count-text {
+  background: rgba(127, 90, 240, 0.12);
+  border: 1px solid rgba(127, 90, 240, 0.25);
+}
+
+.interest-map-count-art {
+  background: rgba(212, 175, 55, 0.12);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+.interest-map-count-number {
+  font-family: 'Outfit', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.interest-map-count-label {
+  font-family: 'Outfit', sans-serif;
+  font-size: 10px;
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.interest-map-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 28px;
+  justify-content: center;
+}
+
+.interest-map-tag {
+  font-family: 'Outfit', sans-serif;
+  border-radius: 24px;
+}
+
+.interest-map-tag-count {
+  margin-left: 6px;
+  opacity: 0.5;
+  font-size: 0.75em;
+}
+
+.interest-map-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.interest-map-card {
+  padding: 14px 16px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.interest-map-card-thumb {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.interest-map-card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.interest-map-card-emoji {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.interest-map-card-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.interest-map-card-title {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.interest-map-card-meta {
+  font-family: 'Outfit', sans-serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
