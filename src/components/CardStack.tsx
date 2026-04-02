@@ -1,6 +1,7 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useMemo } from 'react';
 import type { Card } from '../types/card';
 import { useSwipe } from '../hooks/useSwipe';
+import { useImagePreload } from '../hooks/useImagePreload';
 import TextCard from './TextCard';
 import ArtCard from './ArtCard';
 
@@ -48,6 +49,15 @@ export default function CardStack({ onShowMap, bookmarks, onBookmark, allCards }
 
   const currentCard = cards[currentIndex];
 
+  const nextArtUrls = useMemo(() =>
+    cards.slice(currentIndex + 1, currentIndex + 3)
+      .filter(c => c.type === 'art')
+      .map(c => (c as import('../types/card').ArtCard).imageUrl)
+      .filter(Boolean),
+    [cards, currentIndex]
+  );
+  useImagePreload(nextArtUrls);
+
   return (
     <div
       ref={containerRef}
@@ -63,6 +73,7 @@ export default function CardStack({ onShowMap, bookmarks, onBookmark, allCards }
             ? -window.innerHeight
             : window.innerHeight;
         const isActive = i === currentIndex;
+        const isNear = Math.abs(i - currentIndex) <= 1;
         const isBookmarked = bookmarks.includes(card.id);
 
         if (card.type === 'art') {
@@ -71,6 +82,7 @@ export default function CardStack({ onShowMap, bookmarks, onBookmark, allCards }
               key={card.id}
               card={card}
               isActive={isActive}
+              isNear={isNear}
               offset={calcOffset}
               isBookmarked={isBookmarked}
               onBookmark={onBookmark}

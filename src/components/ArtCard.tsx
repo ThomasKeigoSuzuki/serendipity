@@ -5,18 +5,23 @@ import ActionButtons from './ActionButtons';
 interface ArtCardProps {
   card: ArtCardType;
   isActive: boolean;
+  isNear: boolean;
   offset: number;
   isBookmarked: boolean;
   onBookmark: (id: number) => void;
 }
 
-export default function ArtCard({ card, isActive, offset, isBookmarked, onBookmark }: ArtCardProps) {
+export default function ArtCard({ card, isActive, isNear, offset, isBookmarked, onBookmark }: ArtCardProps) {
   const [revealed, setRevealed] = useState(false);
   const [imgLoaded, setImgLoaded] = useState(false);
 
   useEffect(() => {
     if (!isActive) setRevealed(false);
   }, [isActive]);
+
+  useEffect(() => {
+    if (!isNear) setImgLoaded(false);
+  }, [isNear]);
 
   const z = card.zoomRegion;
 
@@ -45,21 +50,38 @@ export default function ArtCard({ card, isActive, offset, isBookmarked, onBookma
             boxShadow: `0 0 60px ${card.accent}22`,
           }}
         >
-          <img
-            src={card.imageUrl}
-            alt={card.title}
-            onLoad={() => setImgLoaded(true)}
-            className="art-card-image"
-            style={{
-              objectPosition: revealed ? 'center' : `${z.x}% ${z.y}%`,
-              transform: revealed ? 'scale(1)' : `scale(${100 / z.size})`,
-              transformOrigin: `${z.x}% ${z.y}%`,
-              opacity: imgLoaded ? 1 : 0,
-            }}
-          />
-          {!imgLoaded && (
-            <div className="art-card-loader">
-              <div className="spinner" style={{ borderColor: `${card.accent}44`, borderTopColor: card.accent }} />
+          {isNear && (
+            <img
+              src={card.imageUrl}
+              alt={card.title}
+              loading="lazy"
+              decoding="async"
+              onLoad={() => setImgLoaded(true)}
+              className="art-card-image"
+              style={{
+                objectPosition: revealed ? 'center' : `${z.x}% ${z.y}%`,
+                transform: revealed ? 'scale(1)' : `scale(${100 / z.size})`,
+                transformOrigin: `${z.x}% ${z.y}%`,
+                opacity: imgLoaded ? 1 : 0,
+              }}
+            />
+          )}
+          {(!imgLoaded || !isNear) && (
+            <div style={{
+              position: 'absolute', inset: 0,
+              background: `linear-gradient(135deg, ${card.color}, ${card.accent}33)`,
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              flexDirection: 'column', gap: 8,
+            }}>
+              <div style={{
+                width: 28, height: 28,
+                border: `2px solid ${card.accent}44`, borderTopColor: card.accent,
+                borderRadius: '50%', animation: 'spin 1s linear infinite',
+              }} />
+              <span style={{
+                fontFamily: "'Outfit', sans-serif", fontSize: 10,
+                color: `${card.accent}88`, letterSpacing: 1,
+              }}>LOADING</span>
             </div>
           )}
           {!revealed && imgLoaded && (
