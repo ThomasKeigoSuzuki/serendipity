@@ -211,7 +211,8 @@ html, body {
 }
 
 .art-card-image-container.revealed {
-  aspect-ratio: 16/10;
+  aspect-ratio: unset;
+  max-height: 35vh;
   border-radius: 12px;
 }
 

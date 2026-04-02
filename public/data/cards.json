@@ -9,7 +9,10 @@
     "emoji": "🐙",
     "color": "#1a3a4a",
     "accent": "#4ecdc4",
-    "tags": ["生物", "海洋"]
+    "tags": [
+      "生物",
+      "海洋"
+    ]
   },
   {
     "id": 2,
@@ -21,7 +24,10 @@
     "emoji": "🔥",
     "color": "#2d1b2e",
     "accent": "#e8a87c",
-    "tags": ["文学", "哲学"]
+    "tags": [
+      "文学",
+      "哲学"
+    ]
   },
   {
     "id": 3,
@@ -33,7 +39,10 @@
     "emoji": "🌌",
     "color": "#0d0d2b",
     "accent": "#7f5af0",
-    "tags": ["宇宙", "物理学"]
+    "tags": [
+      "宇宙",
+      "物理学"
+    ]
   },
   {
     "id": 4,
@@ -45,7 +54,10 @@
     "emoji": "🏛️",
     "color": "#3d2b1f",
     "accent": "#d4a574",
-    "tags": ["歴史", "エジプト"]
+    "tags": [
+      "歴史",
+      "エジプト"
+    ]
   },
   {
     "id": 5,
@@ -57,7 +69,10 @@
     "emoji": "🧠",
     "color": "#1a2744",
     "accent": "#ff6b6b",
-    "tags": ["認知科学", "脳科学"]
+    "tags": [
+      "認知科学",
+      "脳科学"
+    ]
   },
   {
     "id": 6,
@@ -69,7 +84,10 @@
     "emoji": "💬",
     "color": "#1b3a2d",
     "accent": "#95d5b2",
-    "tags": ["言語", "文化"]
+    "tags": [
+      "言語",
+      "文化"
+    ]
   },
   {
     "id": 7,
@@ -81,7 +99,10 @@
     "emoji": "✨",
     "color": "#1a2a3a",
     "accent": "#88c8f7",
-    "tags": ["文学", "詩"]
+    "tags": [
+      "文学",
+      "詩"
+    ]
   },
   {
     "id": 8,
@@ -93,7 +114,10 @@
     "emoji": "🔢",
     "color": "#2a1a3a",
     "accent": "#c77dff",
-    "tags": ["数学", "数論"]
+    "tags": [
+      "数学",
+      "数論"
+    ]
   },
   {
     "id": 9,
@@ -105,7 +129,10 @@
     "emoji": "🏦",
     "color": "#2d3a1a",
     "accent": "#a8d867",
-    "tags": ["社会", "経済"]
+    "tags": [
+      "社会",
+      "経済"
+    ]
   },
   {
     "id": 10,
@@ -117,7 +144,970 @@
     "emoji": "⏰",
     "color": "#0f1a2e",
     "accent": "#ffd166",
-    "tags": ["物理学", "宇宙"]
+    "tags": [
+      "物理学",
+      "宇宙"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "生物学",
+    "title": "ミツバチは多数決で巣の場所を決める",
+    "body": "ミツバチの群れが新しい巣を探すとき、偵察バチが候補地を見つけて「8の字ダンス」で仲間に報告する。より多くの支持を集めた場所が最終的に選ばれる。民主的な意思決定を行う数少ない動物の一つ。",
+    "emoji": "🐝",
+    "color": "#3a3a1a",
+    "accent": "#f0c040",
+    "tags": [
+      "生物",
+      "行動学"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "source": "arXiv",
+    "category": "生物学",
+    "title": "人間のDNAの8%はウイルス由来",
+    "body": "ヒトゲノムの約8%は、太古にウイルスが挿入した遺伝子の残骸である。これらの「内在性レトロウイルス」の一部は、胎盤の形成など哺乳類の進化に不可欠な役割を果たしている。",
+    "emoji": "🧬",
+    "color": "#1a2a3a",
+    "accent": "#56c9a8",
+    "tags": [
+      "生物",
+      "遺伝学"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "生物学",
+    "title": "木は地下ネットワークで会話する",
+    "body": "森林の木々は菌根菌のネットワーク（通称「ウッド・ワイド・ウェブ」）を通じて、養分や化学的シグナルを交換している。母樹は幼木にこのネットワーク経由で炭素を送ることもある。",
+    "emoji": "🌳",
+    "color": "#1a3a2a",
+    "accent": "#6dd5a0",
+    "tags": [
+      "生物",
+      "植物学"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "生物学",
+    "title": "クマムシは宇宙空間でも生存できる",
+    "body": "体長0.5mm以下の微小動物クマムシは、真空・高放射線・極低温に耐える最強の生物。2007年の実験で宇宙空間に10日間さらされた後も生存が確認された。乾眠状態では代謝をほぼゼロにできる。",
+    "emoji": "🔬",
+    "color": "#1a2a2a",
+    "accent": "#a8dadc",
+    "tags": [
+      "生物",
+      "極限環境"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "生物学",
+    "title": "バナナは放射性物質を含む",
+    "body": "バナナにはカリウムが豊富に含まれ、そのうちごく微量がカリウム40という放射性同位体。「バナナ等価線量」は放射線量の非公式な単位として使われている。もちろん健康に影響はない。",
+    "emoji": "🍌",
+    "color": "#3a3a0a",
+    "accent": "#e6c422",
+    "tags": [
+      "生物",
+      "化学"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "text",
+    "source": "arXiv",
+    "category": "生物学",
+    "title": "腸内細菌は「第二の脳」",
+    "body": "人間の腸には約38兆個の細菌がおり、脳の神経細胞に匹敵する数のニューロンを持つ腸管神経系と共に、気分やストレス応答にまで影響を与えている。腸と脳は迷走神経で直結している。",
+    "emoji": "🦠",
+    "color": "#2a2a1a",
+    "accent": "#c4a47a",
+    "tags": [
+      "生物",
+      "神経科学"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "生物学",
+    "title": "イカの脳はドーナツ型",
+    "body": "イカの脳はドーナツ状で、食道がその中心を貫通している。つまり、大きなものを飲み込むと脳を傷つける危険がある。この奇妙な構造は軟体動物の進化の名残。",
+    "emoji": "🦑",
+    "color": "#0d1b3a",
+    "accent": "#7eb8da",
+    "tags": [
+      "生物",
+      "海洋"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "宇宙",
+    "title": "中性子星のスプーン一杯は10億トン",
+    "body": "中性子星は太陽の質量を直径20kmほどに圧縮した天体。物質は原子核レベルまで押しつぶされ、角砂糖サイズで約10億トンという想像を絶する密度になる。表面重力は地球の約20億倍。",
+    "emoji": "⭐",
+    "color": "#0d0d2b",
+    "accent": "#b8a0ff",
+    "tags": [
+      "宇宙",
+      "天文学"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "text",
+    "source": "arXiv",
+    "category": "宇宙",
+    "title": "太陽光が地球に届くのに8分19秒かかる",
+    "body": "光の速度は秒速約30万km。太陽と地球の距離は約1億5千万km。つまり今見ている太陽は8分19秒前の姿。もし太陽が突然消えても、私たちがそれを知るのは8分後。",
+    "emoji": "☀️",
+    "color": "#2a1a0d",
+    "accent": "#ffa040",
+    "tags": [
+      "宇宙",
+      "光"
+    ]
+  },
+  {
+    "id": 23,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "宇宙",
+    "title": "土星は水に浮く",
+    "body": "土星の平均密度は約0.69g/cm³で、水（1.0g/cm³）より軽い。理論上、十分大きな水槽があれば土星は浮かぶ。太陽系の巨大ガス惑星の中で最も密度が低い。",
+    "emoji": "🪐",
+    "color": "#1a1a2e",
+    "accent": "#e8d5a3",
+    "tags": [
+      "宇宙",
+      "惑星"
+    ]
+  },
+  {
+    "id": 24,
+    "type": "text",
+    "source": "arXiv",
+    "category": "宇宙",
+    "title": "宇宙に浮かぶ巨大な水の塊",
+    "body": "地球から120億光年先に、地球の海水の140兆倍の水蒸気を含む天体が発見された。これは宇宙で見つかった最大の水の貯蔵庫で、初期宇宙にも水が存在したことを示す。",
+    "emoji": "💧",
+    "color": "#0d1a2e",
+    "accent": "#56b4d3",
+    "tags": [
+      "宇宙",
+      "天文学"
+    ]
+  },
+  {
+    "id": 25,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "宇宙",
+    "title": "金は中性子星の衝突で生まれた",
+    "body": "地球上の金のほとんどは、中性子星同士の合体で生成されたと考えられている。2017年にGW170817として観測された中性子星合体で、この理論が初めて実証された。",
+    "emoji": "✨",
+    "color": "#2a2010",
+    "accent": "#d4af37",
+    "tags": [
+      "宇宙",
+      "元素"
+    ]
+  },
+  {
+    "id": 26,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "物理学",
+    "title": "シュレーディンガーの猫は生死が重なっている",
+    "body": "量子力学の思考実験「シュレーディンガーの猫」では、箱の中の猫は観測するまで生きている状態と死んでいる状態が重ね合わさっている。量子の世界の不思議さを示すために提案された。",
+    "emoji": "🐱",
+    "color": "#1a1a30",
+    "accent": "#9f7aea",
+    "tags": [
+      "物理学",
+      "量子力学"
+    ]
+  },
+  {
+    "id": 27,
+    "type": "text",
+    "source": "arXiv",
+    "category": "物理学",
+    "title": "光は粒であり波でもある",
+    "body": "光は粒子（光子）としても波としても振る舞う「波動と粒子の二重性」を持つ。二重スリット実験で光子を一つずつ飛ばしても、やがて干渉縞が現れる。観測するかどうかで結果が変わる。",
+    "emoji": "🌊",
+    "color": "#0f1a2e",
+    "accent": "#00c4ff",
+    "tags": [
+      "物理学",
+      "量子力学"
+    ]
+  },
+  {
+    "id": 31,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "歴史",
+    "title": "オックスフォード大学はアステカ帝国より古い",
+    "body": "オックスフォード大学の講義は1096年に始まった。一方、アステカ帝国の建国は1428年。つまりオックスフォードでは、アステカ帝国が存在する300年以上前からすでに学生が学んでいた。",
+    "emoji": "🎓",
+    "color": "#3d2b1f",
+    "accent": "#c4a47a",
+    "tags": [
+      "歴史",
+      "大学"
+    ]
+  },
+  {
+    "id": 32,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "歴史",
+    "title": "最後のマンモスとピラミッドは同時代",
+    "body": "ロシアのウランゲリ島では紀元前1700年頃までマンモスが生存していた。エジプトのギザの大ピラミッドは紀元前2560年頃に完成。ピラミッド建設から800年後もマンモスは生きていた。",
+    "emoji": "🦣",
+    "color": "#2d2a1a",
+    "accent": "#d4a574",
+    "tags": [
+      "歴史",
+      "古代"
+    ]
+  },
+  {
+    "id": 33,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "歴史",
+    "title": "日本には1,000年以上続く企業がある",
+    "body": "金剛組は西暦578年創業の世界最古の企業。聖徳太子が四天王寺建立のために百済から招いた宮大工が起源。1,400年以上にわたり寺社建築を手がけてきた。",
+    "emoji": "🏯",
+    "color": "#2a1a1a",
+    "accent": "#c45c5c",
+    "tags": [
+      "歴史",
+      "日本"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "歴史",
+    "title": "ナポレオンは実は平均身長だった",
+    "body": "「ナポレオンは背が低い」というイメージは、フランスとイギリスの度量衡の違いから生じた誤解。フランスのピエで5フィート2インチは、英国の約5フィート7インチに相当し、当時の平均的な身長だった。",
+    "emoji": "👑",
+    "color": "#1a1a3a",
+    "accent": "#7088c0",
+    "tags": [
+      "歴史",
+      "ヨーロッパ"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "歴史",
+    "title": "古代ローマにはすでにファストフード店があった",
+    "body": "ポンペイの遺跡からは「テルモポリウム」と呼ばれる飲食カウンターが多数発見された。カウンターに埋め込まれた壺に温かい食べ物を入れて販売。古代版のファストフード店だ。",
+    "emoji": "🍲",
+    "color": "#3a2a1a",
+    "accent": "#e8a87c",
+    "tags": [
+      "歴史",
+      "ローマ"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "歴史",
+    "title": "バイキングは角つき兜をかぶっていなかった",
+    "body": "角のついた兜はヴァイキングの象徴とされるが、考古学的証拠はゼロ。このイメージは19世紀のロマン主義の画家やワーグナーのオペラ衣装が生み出した創作。",
+    "emoji": "⚔️",
+    "color": "#1a2a2a",
+    "accent": "#8fc5d3",
+    "tags": [
+      "歴史",
+      "北欧"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "歴史",
+    "title": "紙幣を最初に使ったのは中国",
+    "body": "世界初の紙幣は10世紀の中国・宋代の「交子」。鉄銭が重すぎたため、商人たちが預かり証として紙を使い始めたのが起源。マルコ・ポーロはこれを見て驚愕した。",
+    "emoji": "💴",
+    "color": "#2d1a1a",
+    "accent": "#d4a574",
+    "tags": [
+      "歴史",
+      "経済"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "歴史",
+    "title": "ロゼッタ・ストーンの解読に23年かかった",
+    "body": "1799年にエジプトで発見されたロゼッタ・ストーンには同じ内容が3つの文字で刻まれていた。シャンポリオンが1822年にヒエログリフの解読に成功するまで23年。古代エジプト文明の扉が開いた。",
+    "emoji": "📜",
+    "color": "#2a2a1a",
+    "accent": "#c9a84c",
+    "tags": [
+      "歴史",
+      "言語"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "哲学",
+    "title": "プラトンの洞窟——あなたが見ているものは影かもしれない",
+    "body": "プラトンは『国家』で、洞窟の壁に映る影だけを見て育った囚人の比喩を語った。影を実在と信じる彼らに真の世界を見せたら？ 我々の「常識」も、実は影にすぎないかもしれない。",
+    "emoji": "🕯️",
+    "color": "#2a1a2e",
+    "accent": "#d4a0c0",
+    "tags": [
+      "哲学",
+      "古代ギリシャ"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "哲学",
+    "title": "「我思う、ゆえに我あり」の本当の意味",
+    "body": "デカルトのこの有名な命題は「自分は存在する」という自慢ではない。すべてを疑い尽くしても、「疑っている自分」の存在だけは疑えない、という哲学の出発点。疑う行為そのものが存在の証明。",
+    "emoji": "🤔",
+    "color": "#1a1a2e",
+    "accent": "#8888d0",
+    "tags": [
+      "哲学",
+      "近代"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "text",
+    "source": "青空文庫",
+    "category": "文学",
+    "title": "太宰治は芥川賞を懇願する手紙を書いた",
+    "body": "太宰治は第1回芥川賞の選考委員・佐藤春夫に「芥川賞をもらえないと死ぬ」という趣旨の手紙を送った。落選後の太宰の苦悩は『人間失格』の原点の一つ。彼が崇拝した芥川龍之介の名を冠した賞への執着だった。",
+    "emoji": "📝",
+    "color": "#2d1b2e",
+    "accent": "#b088a0",
+    "tags": [
+      "文学",
+      "日本"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "文学",
+    "title": "シェイクスピアは1,700以上の英単語を発明した",
+    "body": "「assassination（暗殺）」「lonely（孤独な）」「eyeball（眼球）」——これらはすべてシェイクスピアが初めて使った単語。英語の語彙を劇的に豊かにした稀有な作家。",
+    "emoji": "🎭",
+    "color": "#2a1a20",
+    "accent": "#e87070",
+    "tags": [
+      "文学",
+      "英語"
+    ]
+  },
+  {
+    "id": 45,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "文学",
+    "title": "カフカは作品のほとんどを燃やすよう遺言した",
+    "body": "フランツ・カフカは死の直前、友人マックス・ブロートに未発表原稿の焼却を頼んだ。しかしブロートはこの遺言に背いて出版。『審判』『城』などの名作が世に出た。文学史上最も幸運な「裏切り」。",
+    "emoji": "🔥",
+    "color": "#1a1a1a",
+    "accent": "#a0a0b0",
+    "tags": [
+      "文学",
+      "ヨーロッパ"
+    ]
+  },
+  {
+    "id": 46,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "文学",
+    "title": "『源氏物語』は世界最古の長編小説",
+    "body": "紫式部が11世紀初頭に書いた『源氏物語』は、心理描写を備えた世界最古の長編小説とされる。54帖にわたる物語は、光源氏の華麗で哀切な生涯を通じて人間の普遍的な感情を描き出した。",
+    "emoji": "📖",
+    "color": "#2d1a2a",
+    "accent": "#c488b0",
+    "tags": [
+      "文学",
+      "日本"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "哲学",
+    "title": "トロッコ問題——正解のないジレンマ",
+    "body": "暴走トロッコの先に5人がいる。レバーを引けば1人の側線に逸れる。5人を救うために1人を犠牲にするか？ 功利主義と義務論が真っ向から衝突するこの思考実験に、万人が納得する答えはない。",
+    "emoji": "🚃",
+    "color": "#1a2a2a",
+    "accent": "#70a0b0",
+    "tags": [
+      "哲学",
+      "倫理"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "数学",
+    "title": "ゼロの発見は人類史上最大の知的革命",
+    "body": "「何もない」を数で表す——この発想が生まれたのは7世紀のインド。ブラフマグプタがゼロの演算規則を初めて定式化した。ゼロなくして位取り記数法も、コンピュータも存在しなかった。",
+    "emoji": "0️⃣",
+    "color": "#2a1a3a",
+    "accent": "#b088e0",
+    "tags": [
+      "数学",
+      "歴史"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "数学",
+    "title": "無限にも大きさがある",
+    "body": "カントールは、自然数の無限と実数の無限は「同じ大きさ」ではないことを証明した（対角線論法）。無限の中にも階層がある。この発見は当時の数学界に激しい論争を巻き起こした。",
+    "emoji": "♾️",
+    "color": "#1a1a3a",
+    "accent": "#7f5af0",
+    "tags": [
+      "数学",
+      "集合論"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "数学",
+    "title": "23人集まれば誕生日が被る確率は50%超",
+    "body": "「誕生日のパラドックス」——23人のグループで同じ誕生日のペアがいる確率は約50.7%。70人なら99.9%。直感に反するが、比較するペアの数が人数の二乗に近い速さで増えるため。",
+    "emoji": "🎂",
+    "color": "#3a1a2a",
+    "accent": "#f06595",
+    "tags": [
+      "数学",
+      "確率"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "数学",
+    "title": "黄金比は自然界のあちこちに現れる",
+    "body": "1:1.618...の黄金比（φ）は、ひまわりの種の配列、巻き貝の螺旋、銀河の渦巻きにまで現れる。フィボナッチ数列の隣接項の比も黄金比に収束する。美しさの数学的な裏づけ。",
+    "emoji": "🌻",
+    "color": "#2a2a0a",
+    "accent": "#e6b422",
+    "tags": [
+      "数学",
+      "自然"
+    ]
+  },
+  {
+    "id": 55,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "数学",
+    "title": "ケーニヒスベルクの7つの橋",
+    "body": "18世紀プロイセンの街ケーニヒスベルクには7つの橋があった。「すべての橋を一度だけ渡って元に戻れるか？」オイラーはこれが不可能であることを証明し、グラフ理論が誕生した。",
+    "emoji": "🌉",
+    "color": "#1a2a3a",
+    "accent": "#70b0d0",
+    "tags": [
+      "数学",
+      "グラフ理論"
+    ]
+  },
+  {
+    "id": 56,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "数学",
+    "title": "モンティ・ホール問題——ドアを変えるべきか",
+    "body": "3つのドアの1つに賞品がある。選んだ後、司会者がハズレのドアを1つ開ける。残りに変更すべきか？直感では五分五分だが、変更した方が当たる確率は2/3。条件付き確率の罠。",
+    "emoji": "🚪",
+    "color": "#2a1a2a",
+    "accent": "#c77dff",
+    "tags": [
+      "数学",
+      "確率"
+    ]
+  },
+  {
+    "id": 61,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "社会",
+    "title": "ダンバー数——友人の上限は150人",
+    "body": "人類学者ロビン・ダンバーは、人間の脳の大きさから安定的に維持できる社会関係の数を約150人と推定した。狩猟採集民の集落、軍の中隊、企業の部門サイズがこの数に近いのは偶然ではない。",
+    "emoji": "👥",
+    "color": "#2d3a1a",
+    "accent": "#90c860",
+    "tags": [
+      "社会",
+      "人類学"
+    ]
+  },
+  {
+    "id": 62,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "社会",
+    "title": "ブータンは「国民総幸福量」で国を測る",
+    "body": "ブータンは1972年からGDPではなくGNH（国民総幸福量）を国の発展指標に採用。心理的幸福、健康、教育、環境など9つの領域で国民の幸せを測定する世界唯一の国。",
+    "emoji": "🏔️",
+    "color": "#1a3a2a",
+    "accent": "#6dd5a0",
+    "tags": [
+      "社会",
+      "政治"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "社会",
+    "title": "世界の識字率は200年で12%→86%になった",
+    "body": "1800年頃、世界の識字率はわずか12%だった。2020年には86%を超えた。公教育の普及、印刷技術の発展、そして女性への教育機会の拡大が、この劇的な変化を支えた。",
+    "emoji": "📚",
+    "color": "#1a2d2d",
+    "accent": "#56c9a8",
+    "tags": [
+      "社会",
+      "教育"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "経済",
+    "title": "世界の超富裕層26人が下位38億人と同じ資産を持つ",
+    "body": "国際NGOオックスファムの報告によると、世界で最も裕福な26人が、世界人口の下位半分（約38億人）と同等の資産を保有。富の集中は加速し続けている。",
+    "emoji": "💰",
+    "color": "#2a2a1a",
+    "accent": "#d4af37",
+    "tags": [
+      "経済",
+      "格差"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "経済",
+    "title": "囚人のジレンマ——協力か裏切りか",
+    "body": "2人の囚人が別々に尋問される。互いに黙秘すれば軽い刑、一方だけ自白すれば自白者は釈放・黙秘者は重刑。合理的な個人が裏切りを選ぶ結果、全体として最悪の結果に。協力の難しさを示すゲーム理論の古典。",
+    "emoji": "🔒",
+    "color": "#1a1a2a",
+    "accent": "#8080c0",
+    "tags": [
+      "経済",
+      "ゲーム理論"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "社会",
+    "title": "コモンズの悲劇——みんなの資源は誰のものか",
+    "body": "共有の牧草地で、各農民が自分の利益のために羊を増やし続けると、牧草地は荒廃する。個人の合理性が集団の破滅を招く——環境問題や乱獲の本質を描いたハーディンの寓話。",
+    "emoji": "🐑",
+    "color": "#2d3a2a",
+    "accent": "#a8c868",
+    "tags": [
+      "社会",
+      "環境"
+    ]
+  },
+  {
+    "id": 67,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "社会",
+    "title": "スウェーデンでは現金がほぼ消えた",
+    "body": "スウェーデンの現金流通量はGDPの1%以下。教会の献金もSwishというアプリで行われ、露店やバスでも現金お断りの店がある。世界初の完全キャッシュレス社会に最も近い国。",
+    "emoji": "📱",
+    "color": "#0f1a2e",
+    "accent": "#00b4d8",
+    "tags": [
+      "社会",
+      "テクノロジー"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "text",
+    "source": "arXiv",
+    "category": "心理学",
+    "title": "確証バイアス——人は信じたいものを信じる",
+    "body": "人間は自分の既存の信念を裏付ける情報ばかり集め、矛盾する情報を無視する傾向がある。SNSのフィルターバブルはこの心理を増幅する。「私は偏っていない」と思うこと自体がバイアスの証拠。",
+    "emoji": "🔍",
+    "color": "#2a1a30",
+    "accent": "#f06595",
+    "tags": [
+      "心理学",
+      "認知バイアス"
+    ]
+  },
+  {
+    "id": 72,
+    "type": "text",
+    "source": "arXiv",
+    "category": "心理学",
+    "title": "ダニング＝クルーガー効果",
+    "body": "能力が低い人ほど自分を過大評価し、能力が高い人ほど自分を過小評価する傾向がある。無知であること自体が、自分の無知に気づく能力を奪う——というパラドックス。",
+    "emoji": "📊",
+    "color": "#1a2744",
+    "accent": "#ff8080",
+    "tags": [
+      "心理学",
+      "認知バイアス"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "text",
+    "source": "arXiv",
+    "category": "心理学",
+    "title": "マシュマロ実験の「その後」",
+    "body": "4歳児の前にマシュマロを置き「15分待てばもう1個」と伝える有名な実験。待てた子は将来の学業成績が良いとされたが、再実験で家庭の経済状況が最大の要因と判明。自制心より環境の力。",
+    "emoji": "🍬",
+    "color": "#3a2a2a",
+    "accent": "#e8a87c",
+    "tags": [
+      "心理学",
+      "教育"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "心理学",
+    "title": "人は選択肢が多すぎると選べなくなる",
+    "body": "ジャムの試食実験：24種類を並べた場合と6種類の場合、購入率は6種類の方が10倍高かった。「選択のパラドックス」——自由が多すぎると不自由になる。",
+    "emoji": "🫙",
+    "color": "#2a2a1a",
+    "accent": "#c0a060",
+    "tags": [
+      "心理学",
+      "行動経済学"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "text",
+    "source": "arXiv",
+    "category": "認知科学",
+    "title": "デジャヴは脳の「バグチェック」かもしれない",
+    "body": "「前にも経験した」という不思議な感覚デジャヴ。最新の研究では、脳の記憶照合システムが誤検知を起こしたとき、それを「修正しようとする」信号がデジャヴの正体かもしれないとされる。",
+    "emoji": "🔄",
+    "color": "#1a2040",
+    "accent": "#a088d0",
+    "tags": [
+      "認知科学",
+      "記憶"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "text",
+    "source": "arXiv",
+    "category": "認知科学",
+    "title": "プラセボ効果は年々強くなっている",
+    "body": "偽薬でも「薬だ」と信じると症状が改善するプラセボ効果。驚くべきことに、この効果は年々増大しており、新薬の臨床試験がますます困難になっている。心と体の関係は想像以上に深い。",
+    "emoji": "💊",
+    "color": "#1a3040",
+    "accent": "#70c0a0",
+    "tags": [
+      "認知科学",
+      "医学"
+    ]
+  },
+  {
+    "id": 81,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "言語",
+    "title": "日本語の一人称は100種類以上ある",
+    "body": "私、僕、俺、わし、あたし、拙者、小生、我輩、朕……日本語ほど一人称が多い言語は世界でも珍しい。使い分けによって性別、年齢、社会的立場、相手との関係性が一瞬で伝わる。",
+    "emoji": "🗣️",
+    "color": "#1b3a2d",
+    "accent": "#80c0a0",
+    "tags": [
+      "言語",
+      "日本語"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "言語",
+    "title": "ピダハン語には数の概念がない",
+    "body": "アマゾンのピダハン族の言語には、数詞がない。「多い」「少ない」の区別のみ。過去形も未来形もなく、「直接体験したこと」しか話さないという独特の文法を持つ。",
+    "emoji": "🌿",
+    "color": "#2a3a1a",
+    "accent": "#a0d060",
+    "tags": [
+      "言語",
+      "人類学"
+    ]
+  },
+  {
+    "id": 83,
+    "type": "text",
+    "source": "arXiv",
+    "category": "言語",
+    "title": "言語が色の見え方を変える",
+    "body": "ロシア語には「薄い青」と「濃い青」に別々の基本語がある。実験では、ロシア語話者は英語話者より青の微妙な違いを速く区別できた。言語が知覚をつくる。",
+    "emoji": "🎨",
+    "color": "#1a1a3a",
+    "accent": "#6080e0",
+    "tags": [
+      "言語",
+      "認知科学"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "言語",
+    "title": "手話は国ごとにまったく違う",
+    "body": "アメリカ手話（ASL）とイギリス手話（BSL）は英語圏同士なのに互いに通じない。一方、ASLはフランス手話の影響を強く受けている。音声言語と手話の系統は一致しない。",
+    "emoji": "🤟",
+    "color": "#2d2a1a",
+    "accent": "#e6b422",
+    "tags": [
+      "言語",
+      "文化"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "文化",
+    "title": "絵文字は日本の携帯電話から生まれた",
+    "body": "1999年、NTTドコモの栗田穣崇が176個の絵文字セットをデザインした。元々は日本の携帯メール文化のために作られたが、2010年にUnicodeに採用されて世界標準に。「emoji」はそのまま英語になった。",
+    "emoji": "😀",
+    "color": "#3a2a1a",
+    "accent": "#f0a040",
+    "tags": [
+      "文化",
+      "テクノロジー"
+    ]
+  },
+  {
+    "id": 86,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "文化",
+    "title": "チェスと将棋は同じ祖先から分かれた",
+    "body": "チェス・将棋・シャンチー（中国将棋）はすべて、古代インドのチャトランガというゲームから派生した。6世紀頃に西と東に伝播し、各地の文化に合わせて独自に進化した。",
+    "emoji": "♟️",
+    "color": "#1a1a1a",
+    "accent": "#c0c0c0",
+    "tags": [
+      "文化",
+      "ゲーム"
+    ]
+  },
+  {
+    "id": 91,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "テクノロジー",
+    "title": "世界初のプログラマーは女性だった",
+    "body": "エイダ・ラブレスは1843年、チャールズ・バベッジの解析機関のためのアルゴリズムを記述した。これが世界初のコンピュータプログラムとされる。彼女は詩人バイロンの娘でもあった。",
+    "emoji": "👩‍💻",
+    "color": "#0f1a2a",
+    "accent": "#00d4ff",
+    "tags": [
+      "テクノロジー",
+      "歴史"
+    ]
+  },
+  {
+    "id": 92,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "テクノロジー",
+    "title": "QRコードは日本の自動車部品工場で生まれた",
+    "body": "1994年、デンソーウェーブの原昌宏が開発。自動車部品の在庫管理のために作られたQRコードは、今やキャッシュレス決済からワクチン証明まで世界中で使われている。特許料は無料で公開された。",
+    "emoji": "📲",
+    "color": "#1a1a2e",
+    "accent": "#4488cc",
+    "tags": [
+      "テクノロジー",
+      "日本"
+    ]
+  },
+  {
+    "id": 93,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "テクノロジー",
+    "title": "Wi-Fiの名前に技術的な意味はない",
+    "body": "Wi-FiはWireless Fidelityの略と思われがちだが、実はマーケティング会社が「Hi-Fi」をもじって作った造語。技術的な略語ではない。覚えやすさだけで選ばれた。",
+    "emoji": "📶",
+    "color": "#0d2a2a",
+    "accent": "#56d8b8",
+    "tags": [
+      "テクノロジー",
+      "通信"
+    ]
+  },
+  {
+    "id": 94,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "テクノロジー",
+    "title": "世界初のウェブサイトは今も見られる",
+    "body": "1991年にティム・バーナーズ＝リーが公開した世界初のウェブサイトは、CERNのサーバーで今も閲覧可能。シンプルなテキストとリンクだけの素朴なページが、世界を変えた起点。",
+    "emoji": "🌐",
+    "color": "#1a2a2a",
+    "accent": "#70b0d0",
+    "tags": [
+      "テクノロジー",
+      "インターネット"
+    ]
+  },
+  {
+    "id": 95,
+    "type": "text",
+    "source": "arXiv",
+    "category": "テクノロジー",
+    "title": "インターネット全体の「重さ」は約50g",
+    "body": "インターネット上のすべてのデータを電子の質量で換算すると、約50グラムになるという推定がある。イチゴ1粒ほどの重さに、人類の知識の大半が詰まっている。",
+    "emoji": "⚖️",
+    "color": "#1a1a2a",
+    "accent": "#a088d0",
+    "tags": [
+      "テクノロジー",
+      "物理学"
+    ]
+  },
+  {
+    "id": 96,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "テクノロジー",
+    "title": "GPSには最低4つの衛星が必要",
+    "body": "GPS受信機は衛星との距離から位置を計算するが、3次元の位置＋時計の誤差を解くために最低4つの衛星信号が必要。現在は31基が地球を周回している。",
+    "emoji": "🛰️",
+    "color": "#0d0d2b",
+    "accent": "#6080ff",
+    "tags": [
+      "テクノロジー",
+      "宇宙"
+    ]
+  },
+  {
+    "id": 77,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "地理",
+    "title": "サハラ砂漠にも雪が降る",
+    "body": "世界最大の砂漠サハラでも、標高の高い地域では雪が降ることがある。2018年にはアルジェリアのアイン・セフラで、砂丘の上に雪が積もる幻想的な光景が撮影された。",
+    "emoji": "🏜️",
+    "color": "#3a2a0a",
+    "accent": "#f0c27f",
+    "tags": [
+      "地理",
+      "自然"
+    ]
+  },
+  {
+    "id": 78,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "地理",
+    "title": "太平洋は地球の全陸地面積より広い",
+    "body": "太平洋の面積は約1億6,500万km²。地球上の全陸地面積（約1億5,000万km²）を合わせても太平洋に収まるほど広大。地球の表面の約3分の1を占める。",
+    "emoji": "🌏",
+    "color": "#0d1a2e",
+    "accent": "#4488cc",
+    "tags": [
+      "地理",
+      "海洋"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "地理",
+    "title": "エベレストは「一番高い山」ではないかもしれない",
+    "body": "海面からの高さではエベレスト（8,849m）が最高峰。しかし地球の中心からの距離では、赤道付近のチンボラソ山（エクアドル）の方が約2km高い。地球が赤道方向に膨らんでいるため。",
+    "emoji": "🏔️",
+    "color": "#1a2a3a",
+    "accent": "#a0c0e0",
+    "tags": [
+      "地理",
+      "地球科学"
+    ]
+  },
+  {
+    "id": 80,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "地理",
+    "title": "死海は毎年1mずつ縮んでいる",
+    "body": "地表で最も低い湖・死海は、流入河川の水量減少により急速に縮小中。塩分濃度は海水の約10倍で、体が勝手に浮くほど。このままでは数十年で消滅するとの予測もある。",
+    "emoji": "🧂",
+    "color": "#2a2a1a",
+    "accent": "#c0d0e0",
+    "tags": [
+      "地理",
+      "環境"
+    ]
   },
   {
     "id": 101,
@@ -127,13 +1117,20 @@
     "title": "真珠の耳飾りの少女",
     "artist": "ヨハネス・フェルメール",
     "year": "1665年頃",
-    "body": "「北方のモナ・リザ」とも呼ばれるこの作品は、実は肖像画ではなく「トローニー」と呼ばれる架空の人物を描いた作品。少女が身に着けている耳飾りは、当時非常に高価だった真珠。振り返る一瞬の表情が、見る者との親密な対話を生む。",
+    "body": "「北方のモナ・リザ」とも呼ばれるこの作品は、実は肖像画ではなく「トローニー」と呼ばれる架空の人物を描いた作品。振り返る一瞬の表情が、見る者との親密な対話を生む。",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/400px-1665_Girl_with_a_Pearl_Earring.jpg",
-    "zoomRegion": { "x": 30, "y": 18, "size": 28 },
+    "zoomRegion": {
+      "x": 30,
+      "y": 18,
+      "size": 28
+    },
     "hint": "オランダ黄金時代の巨匠による、振り返る少女",
     "color": "#1a1a2e",
     "accent": "#e8d5a3",
-    "tags": ["西洋美術", "バロック"]
+    "tags": [
+      "西洋美術",
+      "バロック"
+    ]
   },
   {
     "id": 102,
@@ -143,13 +1140,20 @@
     "title": "神奈川沖浪裏",
     "artist": "葛飾北斎",
     "year": "1831年頃",
-    "body": "「冨嶽三十六景」の一図。巨大な波が小舟を呑み込もうとする瞬間を捉えたこの作品は、実は波の向こうに富士山が小さく描かれている。西洋の印象派にも大きな影響を与え、ドビュッシーの交響詩「海」の楽譜表紙にも使用された。",
+    "body": "「冨嶽三十六景」の一図。巨大な波が小舟を呑み込もうとする瞬間。波の向こうに富士山が小さく描かれている。ドビュッシーの交響詩「海」の楽譜表紙にも使用された。",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/400px-Tsunami_by_hokusai_19th_century.jpg",
-    "zoomRegion": { "x": 10, "y": 20, "size": 35 },
+    "zoomRegion": {
+      "x": 10,
+      "y": 20,
+      "size": 35
+    },
     "hint": "日本が世界に誇る、あの大波",
     "color": "#0d1b2a",
     "accent": "#7eb8da",
-    "tags": ["日本美術", "浮世絵"]
+    "tags": [
+      "日本美術",
+      "浮世絵"
+    ]
   },
   {
     "id": 103,
@@ -159,13 +1163,20 @@
     "title": "星月夜",
     "artist": "フィンセント・ファン・ゴッホ",
     "year": "1889年",
-    "body": "サン＝レミの精神病院から見た夜景を描いた作品。渦巻く夜空は実際の風景ではなく、ゴッホの内面の嵐を映している。糸杉は炎のように天を突き、村は静かに眠る。狂気と美が共存する傑作。",
+    "body": "サン＝レミの精神病院から見た夜景。渦巻く夜空はゴッホの内面の嵐を映している。糸杉は炎のように天を突き、村は静かに眠る。狂気と美が共存する傑作。",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/400px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
-    "zoomRegion": { "x": 50, "y": 10, "size": 30 },
+    "zoomRegion": {
+      "x": 50,
+      "y": 10,
+      "size": 30
+    },
     "hint": "渦巻く夜空。精神病院から見た景色。",
     "color": "#0f1a35",
     "accent": "#f0c040",
-    "tags": ["西洋美術", "後期印象派"]
+    "tags": [
+      "西洋美術",
+      "後期印象派"
+    ]
   },
   {
     "id": 104,
@@ -175,13 +1186,20 @@
     "title": "接吻",
     "artist": "グスタフ・クリムト",
     "year": "1907-1908年",
-    "body": "金箔をふんだんに使った装飾的な画面の中、崖の縁で抱き合う男女。男性の衣装には直線的な幾何学模様、女性には花柄の円形模様が描かれ、男女の本質的な違いを象徴している。アール・ヌーヴォーの最高傑作の一つ。",
+    "body": "金箔をふんだんに使った装飾的な画面の中、崖の縁で抱き合う男女。男性の衣装には直線的な幾何学模様、女性には花柄の円形模様。アール・ヌーヴォーの最高傑作の一つ。",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/400px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
-    "zoomRegion": { "x": 30, "y": 5, "size": 30 },
+    "zoomRegion": {
+      "x": 30,
+      "y": 5,
+      "size": 30
+    },
     "hint": "金箔が彩る、世紀末ウィーンの愛",
     "color": "#2a2010",
     "accent": "#d4af37",
-    "tags": ["西洋美術", "アール・ヌーヴォー"]
+    "tags": [
+      "西洋美術",
+      "アール・ヌーヴォー"
+    ]
   },
   {
     "id": 105,
@@ -191,13 +1209,20 @@
     "title": "ヴィーナスの誕生",
     "artist": "サンドロ・ボッティチェリ",
     "year": "1485年頃",
-    "body": "海の泡から生まれたヴィーナスが貝殻に乗って岸に流れ着く場面。ルネサンス期に古代ギリシャ神話を大胆に復活させた記念碑的作品。ヴィーナスの不自然に長い首と傾いたポーズは、現実より美の理想を追求した結果。",
+    "body": "海の泡から生まれたヴィーナスが貝殻に乗って岸に流れ着く場面。不自然に長い首と傾いたポーズは、現実より美の理想を追求した結果。",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/400px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
-    "zoomRegion": { "x": 38, "y": 10, "size": 22 },
+    "zoomRegion": {
+      "x": 38,
+      "y": 10,
+      "size": 22
+    },
     "hint": "海の泡から誕生した、ルネサンスの女神",
     "color": "#1a2a2a",
     "accent": "#a8dabc",
-    "tags": ["西洋美術", "ルネサンス"]
+    "tags": [
+      "西洋美術",
+      "ルネサンス"
+    ]
   },
   {
     "id": 106,
@@ -207,12 +1232,431 @@
     "title": "風神雷神図屏風",
     "artist": "俵屋宗達",
     "year": "17世紀前半",
-    "body": "金箔の空間に風神と雷神だけを配した大胆な構図。何も描かれていない金色の余白こそが、二神の間に張り詰めた緊張感を生んでいる。尾形光琳、酒井抱一と、後世の画家が繰り返し模写した日本美術の至宝。",
+    "body": "金箔の空間に風神と雷神だけを配した大胆な構図。何も描かれていない余白こそが、二神の間の緊張感を生んでいる。尾形光琳、酒井抱一と後世の画家が繰り返し模写した至宝。",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Fujinraijin-tawaraya.jpg/400px-Fujinraijin-tawaraya.jpg",
-    "zoomRegion": { "x": 2, "y": 15, "size": 35 },
+    "zoomRegion": {
+      "x": 2,
+      "y": 15,
+      "size": 35
+    },
     "hint": "金箔の上で対峙する、日本美術の二柱の神",
     "color": "#2a2008",
     "accent": "#c9a84c",
-    "tags": ["日本美術", "琳派"]
+    "tags": [
+      "日本美術",
+      "琳派"
+    ]
+  },
+  {
+    "id": 107,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "西洋美術",
+    "title": "モナ・リザ",
+    "artist": "レオナルド・ダ・ヴィンチ",
+    "year": "1503-1519年頃",
+    "body": "世界で最も有名な絵画。スフマート技法による柔らかな陰影、謎めいた微笑み、左右で異なる風景の高さ。ダ・ヴィンチは生涯この絵を手放さなかった。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/400px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "zoomRegion": {
+      "x": 48,
+      "y": 28,
+      "size": 25
+    },
+    "hint": "世界で最も有名な、あの微笑み",
+    "color": "#1a1a1a",
+    "accent": "#c4a47a",
+    "tags": [
+      "西洋美術",
+      "ルネサンス"
+    ]
+  },
+  {
+    "id": 108,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "西洋美術",
+    "title": "夜警",
+    "artist": "レンブラント・ファン・レイン",
+    "year": "1642年",
+    "body": "アムステルダムの市民自警団の集団肖像画。まるで出陣の瞬間のような劇的な動きと光で描いた革新的作品。中央の少女は「自警団の守護者」の象徴とされる。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/400px-The_Night_Watch_-_HD.jpg",
+    "zoomRegion": {
+      "x": 42,
+      "y": 35,
+      "size": 25
+    },
+    "hint": "劇的な光と影。オランダ黄金時代の最高傑作。",
+    "color": "#1a1a0d",
+    "accent": "#d4a050",
+    "tags": [
+      "西洋美術",
+      "バロック"
+    ]
+  },
+  {
+    "id": 109,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "西洋美術",
+    "title": "睡蓮",
+    "artist": "クロード・モネ",
+    "year": "1906年",
+    "body": "モネは晩年の30年間、自宅ジヴェルニーの庭園の睡蓮を約250点も描き続けた。水面に映る空と水中の植物が溶け合い、後の抽象表現主義に大きな影響を与えた。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg/400px-Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg",
+    "zoomRegion": {
+      "x": 50,
+      "y": 50,
+      "size": 30
+    },
+    "hint": "光と水が溶け合う、印象派の巨匠の庭",
+    "color": "#0d2a1a",
+    "accent": "#88c8a0",
+    "tags": [
+      "西洋美術",
+      "印象派"
+    ]
+  },
+  {
+    "id": 110,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "西洋美術",
+    "title": "叫び",
+    "artist": "エドヴァルド・ムンク",
+    "year": "1893年",
+    "body": "実は叫んでいるのではなく、叫びを聞いて耳を塞いでいる人物。血のように赤い空は、インドネシアのクラカタウ火山噴火の影響とも言われる。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/400px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
+    "zoomRegion": {
+      "x": 48,
+      "y": 25,
+      "size": 30
+    },
+    "hint": "叫んでいるのではない。叫びを聞いている。",
+    "color": "#2a1a0d",
+    "accent": "#e05030",
+    "tags": [
+      "西洋美術",
+      "表現主義"
+    ]
+  },
+  {
+    "id": 111,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "西洋美術",
+    "title": "牛乳を注ぐ女",
+    "artist": "ヨハネス・フェルメール",
+    "year": "1658年頃",
+    "body": "何気ない日常の一場面を、まるで宝石のように描き出したフェルメールの真骨頂。窓から差し込む光、パンの質感、陶器の重み。静謐な空間に労働の尊厳と生活の美が宿る。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg/400px-Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg",
+    "zoomRegion": {
+      "x": 55,
+      "y": 40,
+      "size": 25
+    },
+    "hint": "窓からの光。静かな台所の聖なる瞬間。",
+    "color": "#1a2a2a",
+    "accent": "#d0c890",
+    "tags": [
+      "西洋美術",
+      "バロック"
+    ]
+  },
+  {
+    "id": 112,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "西洋美術",
+    "title": "落穂拾い",
+    "artist": "ジャン＝フランソワ・ミレー",
+    "year": "1857年",
+    "body": "収穫後の畑で落ち穂を拾う3人の農婦。背景の豊かな収穫と対照的な前景の3人の姿が、富の偏在を静かに象徴する。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg/400px-Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg",
+    "zoomRegion": {
+      "x": 40,
+      "y": 55,
+      "size": 30
+    },
+    "hint": "収穫後の畑で腰を屈める3人の女性たち",
+    "color": "#2a2a1a",
+    "accent": "#c4a060",
+    "tags": [
+      "西洋美術",
+      "写実主義"
+    ]
+  },
+  {
+    "id": 113,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "西洋美術",
+    "title": "民衆を導く自由の女神",
+    "artist": "ウジェーヌ・ドラクロワ",
+    "year": "1830年",
+    "body": "1830年のフランス七月革命を描いた作品。三色旗を掲げる女性「マリアンヌ」はフランス共和国の象徴。理想と現実が同居する衝撃的な構図。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg/400px-Eug%C3%A8ne_Delacroix_-_Le_28_Juillet._La_Libert%C3%A9_guidant_le_peuple.jpg",
+    "zoomRegion": {
+      "x": 45,
+      "y": 20,
+      "size": 28
+    },
+    "hint": "三色旗を掲げ、民衆を率いる女性",
+    "color": "#1a1a2a",
+    "accent": "#c05040",
+    "tags": [
+      "西洋美術",
+      "ロマン主義"
+    ]
+  },
+  {
+    "id": 114,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "西洋美術",
+    "title": "グランド・ジャット島の日曜日の午後",
+    "artist": "ジョルジュ・スーラ",
+    "year": "1884-1886年",
+    "body": "何千万もの色の点を並べて描く「点描法」の記念碑的作品。近づくと色の粒が見え、離れると像が浮かぶ——光の科学を絵画に応用した革命。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/400px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg",
+    "zoomRegion": {
+      "x": 65,
+      "y": 50,
+      "size": 25
+    },
+    "hint": "何千万の色の点で描かれた日曜日の公園",
+    "color": "#1a2a1a",
+    "accent": "#90c870",
+    "tags": [
+      "西洋美術",
+      "新印象派"
+    ]
+  },
+  {
+    "id": 115,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "日本美術",
+    "title": "見返り美人図",
+    "artist": "菱川師宣",
+    "year": "1690年頃",
+    "body": "振り返る女性の姿を描いた浮世絵の傑作。緋色の着物に描かれた菊の模様の精緻さ、S字カーブを描く身体のライン。師宣は「浮世絵の祖」と呼ばれる。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Beauty_looking_back.jpg/400px-Beauty_looking_back.jpg",
+    "zoomRegion": {
+      "x": 50,
+      "y": 30,
+      "size": 30
+    },
+    "hint": "振り返る美しい女性。浮世絵の原点。",
+    "color": "#2a1a1a",
+    "accent": "#c06060",
+    "tags": [
+      "日本美術",
+      "浮世絵"
+    ]
+  },
+  {
+    "id": 116,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "日本美術",
+    "title": "凱風快晴（赤富士）",
+    "artist": "葛飾北斎",
+    "year": "1831年頃",
+    "body": "「冨嶽三十六景」の中でも最も人気の高い一枚。朝日に赤く染まる富士山。たった3色の大胆な色面構成が、富士の荘厳さを描き出す。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Red_Fuji_southern_wind_clear_morning.jpg/400px-Red_Fuji_southern_wind_clear_morning.jpg",
+    "zoomRegion": {
+      "x": 50,
+      "y": 40,
+      "size": 35
+    },
+    "hint": "朝日に赤く燃える、日本の象徴",
+    "color": "#1a0d0d",
+    "accent": "#d05030",
+    "tags": [
+      "日本美術",
+      "浮世絵"
+    ]
+  },
+  {
+    "id": 117,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "西洋美術",
+    "title": "アテネの学堂",
+    "artist": "ラファエロ・サンティ",
+    "year": "1509-1511年",
+    "body": "ヴァチカン宮殿の壁画。プラトンとアリストテレスを中心に古代の哲学者が一堂に会する。プラトンのモデルはダ・ヴィンチ。ルネサンスの知的理想の結晶。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg/400px-%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+    "zoomRegion": {
+      "x": 50,
+      "y": 35,
+      "size": 25
+    },
+    "hint": "古代の賢者が集う、ルネサンスの理想郷",
+    "color": "#1a1a20",
+    "accent": "#b0a080",
+    "tags": [
+      "西洋美術",
+      "ルネサンス"
+    ]
+  },
+  {
+    "id": 118,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "西洋美術",
+    "title": "笛を吹く少年",
+    "artist": "エドゥアール・マネ",
+    "year": "1866年",
+    "body": "背景を排除し少年の姿だけを平面的に描いたこの作品は、当時のサロンに拒否された。しかしこの大胆な平面性こそが、浮世絵に影響を受けた近代絵画の革命。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Edouard_Manet_-_The_Fifer_-_Google_Art_Project.jpg/400px-Edouard_Manet_-_The_Fifer_-_Google_Art_Project.jpg",
+    "zoomRegion": {
+      "x": 50,
+      "y": 25,
+      "size": 30
+    },
+    "hint": "背景のない大胆な構図。近代絵画の革命児。",
+    "color": "#1a1a1a",
+    "accent": "#d08080",
+    "tags": [
+      "西洋美術",
+      "印象派"
+    ]
+  },
+  {
+    "id": 119,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "西洋美術",
+    "title": "印象・日の出",
+    "artist": "クロード・モネ",
+    "year": "1872年",
+    "body": "ル・アーヴル港の朝もやの中に浮かぶ赤い太陽。この作品のタイトルから「印象派」の名が生まれた。モネは光そのものを描くという絵画の革命を起こした。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/400px-Monet_-_Impression%2C_Sunrise.jpg",
+    "zoomRegion": {
+      "x": 45,
+      "y": 45,
+      "size": 25
+    },
+    "hint": "朝もやの中の赤い太陽。「印象派」の名前の由来。",
+    "color": "#1a2030",
+    "accent": "#e08050",
+    "tags": [
+      "西洋美術",
+      "印象派"
+    ]
+  },
+  {
+    "id": 120,
+    "type": "art",
+    "source": "名画ズーム",
+    "category": "西洋美術",
+    "title": "夜のカフェテラス",
+    "artist": "フィンセント・ファン・ゴッホ",
+    "year": "1888年",
+    "body": "アルルのカフェを描いたこの夜景には黒い絵の具が一切使われていない。ゴッホは「夜は昼よりも色彩豊かだ」と弟テオへの手紙に書いた。",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_%28Yorck%29.jpg/400px-Vincent_Willem_van_Gogh_-_Cafe_Terrace_at_Night_%28Yorck%29.jpg",
+    "zoomRegion": {
+      "x": 50,
+      "y": 20,
+      "size": 30
+    },
+    "hint": "黒を使わずに描かれた夜の街角",
+    "color": "#0d1a30",
+    "accent": "#e0c040",
+    "tags": [
+      "西洋美術",
+      "後期印象派"
+    ]
+  },
+  {
+    "id": 28,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "物理学",
+    "title": "絶対零度には永遠に到達できない",
+    "body": "温度の下限である-273.15℃（0ケルビン）には理論上到達できない。熱力学第三法則がそれを禁じている。しかし2021年、ドイツの研究チームは絶対零度以下の「負の温度」を実現した。これは冷たいのではなく、逆に極端に熱い状態。",
+    "emoji": "🧊",
+    "color": "#0d1a2e",
+    "accent": "#60c0e0",
+    "tags": [
+      "物理学",
+      "熱力学"
+    ]
+  },
+  {
+    "id": 68,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "経済",
+    "title": "世界のGDPの半分を4カ国が占める",
+    "body": "アメリカ、中国、日本、ドイツの4カ国だけで世界のGDPの約半分を占める。一方で約100カ国が世界GDPの5%にも満たない。経済力の偏りは想像以上に極端。",
+    "emoji": "🌍",
+    "color": "#1a2a2a",
+    "accent": "#70b090",
+    "tags": [
+      "経済",
+      "世界"
+    ]
+  },
+  {
+    "id": 87,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "文化",
+    "title": "世界で最も食べられている食品はコメ",
+    "body": "世界人口の半分以上がコメを主食としている。アジアだけでなく、アフリカや南米でも消費が増加中。稲作の歴史は約1万年。人類文明を支えてきた穀物。",
+    "emoji": "🍚",
+    "color": "#2a2a1a",
+    "accent": "#d4c8a0",
+    "tags": [
+      "文化",
+      "食"
+    ]
+  },
+  {
+    "id": 88,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "文化",
+    "title": "「OK」は世界で最も普及した英語",
+    "body": "OKの語源には諸説あるが、1839年のボストンの新聞で「all correct」のわざと間違えた略語「oll korrect」として初出。今やほぼすべての言語に浸透した、地球上で最も広く理解される単語。",
+    "emoji": "👌",
+    "color": "#1a2a1a",
+    "accent": "#60b080",
+    "tags": [
+      "文化",
+      "言語"
+    ]
+  },
+  {
+    "id": 97,
+    "type": "text",
+    "source": "arXiv",
+    "category": "テクノロジー",
+    "title": "世界の全データの90%は過去2年で生まれた",
+    "body": "人類が生み出すデータ量は指数関数的に増加しており、現存するデジタルデータの約90%はわずか過去2年間で作られた。写真、動画、IoTセンサー、SNS——データ爆発は加速し続ける。",
+    "emoji": "💾",
+    "color": "#0f1a2e",
+    "accent": "#4488ff",
+    "tags": [
+      "テクノロジー",
+      "データ"
+    ]
+  },
+  {
+    "id": 48,
+    "type": "text",
+    "source": "Wikipedia",
+    "category": "哲学",
+    "title": "「万物は流転する」——ヘラクレイトスの河",
+    "body": "古代ギリシャの哲学者ヘラクレイトスは「同じ河に二度入ることはできない」と語った。水は常に流れ、入る人も変わり続ける。変化こそが唯一の不変——2,500年前の洞察は今も色あせない。",
+    "emoji": "🌊",
+    "color": "#1a2030",
+    "accent": "#8090c0",
+    "tags": [
+      "哲学",
+      "古代ギリシャ"
+    ]
   }
 ]
